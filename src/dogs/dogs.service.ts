@@ -1,7 +1,7 @@
 import { Injectable } from '@nestjs/common';
-import { createDogDTO } from 'src/dto/create-dog.dto';
-import {updateDogDto} from 'src/dto/update-dog.dto';
-import { Dog } from 'src/entity/dog.entity';
+import { createDogDTO } from 'src/dogs/dto/create-dog.dto';
+import {updateDogDto} from 'src/dogs/dto/update-dog.dto';
+import {Dog} from './entity/dog.entity'
 import { Repository, UpdateEvent } from "typeorm";
 import { InjectRepository } from "@nestjs/typeorm";
 

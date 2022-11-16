@@ -1,0 +1,9 @@
+{
+    "Nombre":"Intel Pentium",
+    "Marca":"Intel",
+    "FrecuenciaMhz":200,
+    "Nucleos":1,
+    "Hilos":1,
+    "Zocalo":"Socket 2 , 3 Socket , Socket 4 , 5 Socket , Socket 7",
+    "Cache":512 
+}

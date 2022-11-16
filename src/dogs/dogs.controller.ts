@@ -1,7 +1,7 @@
 import { Controller,Get,Post,Delete,Patch,Body,Param} from '@nestjs/common';
-import { createDogDTO } from 'src/dto/create-dog.dto';
+import { createDogDTO } from 'src/dogs/dto/create-dog.dto';
 import { DogsService } from './dogs.service';
-import {updateDogDto} from 'src/dto/update-dog.dto';
+import {updateDogDto} from 'src/dogs/dto/update-dog.dto';
 @Controller('dogs')
 export class DogsController {
     constructor(private DogsService:DogsService){}
